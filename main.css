@@ -1,5 +1,12 @@
 button {
-  background-color: yellow;
+  background-color: #FFCDCD;
+  border-radius: 50px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+
 }
 body {
   display: flex;
@@ -18,7 +25,8 @@ h1 {
 
 .inputSection {
   margin: 50px 0px 80px 0px;
-  width: 400px;
+  width: 300px;
+
 }
 
 .inputs {
