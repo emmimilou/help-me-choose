@@ -13,8 +13,20 @@
       </div>
       <button class="addoption">Add</button>
     </div>
-    <img src="Smiley.png" width="10%" height="10%"/>
-    <div>
-<button>Go!</button>
+    <div class="resultSection"></div>
+<button class="submit">Go!</button>
+    <img src="beyonce-2.png" width="40%" height="40%"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script>
+        $(function(){
+          $('.resultSection').hide()
+          var add_option = function() {
+            $('.inputs').append('<input></input>')
+          }
+
+          $('.addOption').click(add_option)
+
+        })
+      </script>
 </body>
 </html>
